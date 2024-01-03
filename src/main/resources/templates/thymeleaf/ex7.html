@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>thymeleaf link example page </h2>
+	
+	<div>
+		<a th:href="@{/thymeleaf/ex1}">예제1 페이지로 이동</a><br>
+		<a th:href="@{/thymeleaf/ex2}">예제2 페이지로 이동</a><br>
+		<a th:href="@{/thymeleaf/ex3}">예제3 페이지로 이동</a><br>
+		<a th:href="@{/thymeleaf/ex4}">예제4 페이지로 이동</a><br>
+		<a th:href="@{/thymeleaf/ex5}">예제5 페이지로 이동</a><br>
+		<a th:href="@{/thymeleaf/ex6}">예제6 페이지로 이동</a><br><br>
+	</div>
+	
+	<div>
+		<a th:href="@{https://www.thymeleaf.org/}">thymeleaf 공식 페이지 이동</a><br>
+		<a th:href="@{https://www.naver.com/}">naver 공식 페이지 이동</a><br>
+		<a th:href="@{https://www.w3schools.com/}">w3schools 공식 페이지 이동</a>
+	</div>
+	
+	<div>
+		<a th:href="@{/thymeleaf/ex8(param1 = 'parameter data1', param2 = 'parameter data2')}">thymeleaf Parameter Transfer</a><br>
+		
+	</div>
+</body>
+</html>
